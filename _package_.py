@@ -7,7 +7,8 @@ class _PACKAGE_Command(sublime_plugin.TextCommand):
         e = self.view.begin_edit('_package_')
         regions = [region for region in self.view.sel()]
 
-        # sort by region.end() DESC
+        # any edits that are performed will happen in reverse; this makes it
+        # easy to keep region.a and region.b pointing to the correct locations
         def compare(region_a, region_b):
             return cmp(region_b.end(), region_a.end())
         regions.sort(compare)
