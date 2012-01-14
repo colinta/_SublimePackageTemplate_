@@ -14,7 +14,9 @@ class _PACKAGE_Command(sublime_plugin.TextCommand):
         regions.sort(compare)
 
         for region in regions:
-            self.run_each(edit, region, **kwargs)
+            error = self.run_each(edit, region, **kwargs)
+            if error:
+                sublime.status_message(error)
         self.view.end_edit(e)
 
     def run_each(self, edit, region):
