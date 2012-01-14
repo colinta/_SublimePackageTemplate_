@@ -4,7 +4,7 @@ import sublime_plugin
 
 class _PACKAGE_Command(sublime_plugin.TextCommand):
     def run(self, edit, **kwargs):
-        e = self.view.begin_edit('_PACKAGE_')
+        e = self.view.begin_edit('_package_')
         regions = [region for region in self.view.sel()]
 
         # sort by region.end() DESC

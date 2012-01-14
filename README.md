@@ -1,10 +1,10 @@
-Plugin for Sublime Text 2
+_PACKAGE_ for Sublime Text 2
 ==================================
 
 Installation
 ------------
 
-1. Using Package Control, install "PACKAGE"
+1. Using Package Control, install "_PACKAGE_"
 
 Or:
 
