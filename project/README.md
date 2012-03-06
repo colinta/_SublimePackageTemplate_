@@ -1,10 +1,14 @@
-_PACKAGE_ for Sublime Text 2
-==================================
+ {{ Project }} for Sublime Text 2
+={{ '=' * len(Project) }}====================
+{%- if desc %}
 
-Installation
-------------
+{{ desc }}
+{%- endif %}
 
-1. Using Package Control, install "_PACKAGE_"
+ Installation
+--------------
+
+1. Using Package Control, install "{{ Project }}"
 
 Or:
 
@@ -16,5 +20,6 @@ Or:
 
 2. clone this repo
 
-Commands
---------
+ Commands
+----------
+

@@ -1,10 +1,13 @@
+````````
+target_name = project + '.py'
+````````
 import sublime
 import sublime_plugin
 
 
-class _PACKAGE_Command(sublime_plugin.TextCommand):
+class {{ Project }}Command(sublime_plugin.TextCommand):
     def run(self, edit, **kwargs):
-        e = self.view.begin_edit('_package_')
+        e = self.view.begin_edit('{{ project }}')
         regions = [region for region in self.view.sel()]
 
         # any edits that are performed will happen in reverse; this makes it
@@ -21,3 +24,4 @@ class _PACKAGE_Command(sublime_plugin.TextCommand):
 
     def run_each(self, edit, region):
         pass
+
