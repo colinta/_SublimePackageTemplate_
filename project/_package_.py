@@ -5,7 +5,7 @@ import sublime
 import sublime_plugin
 
 
-class {{ Project }}Command(sublime_plugin.TextCommand):
+class {{ ProJect }}Command(sublime_plugin.TextCommand):
     def run(self, edit, **kwargs):
         e = self.view.begin_edit('{{ project }}')
         regions = [region for region in self.view.sel()]

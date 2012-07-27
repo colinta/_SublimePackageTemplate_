@@ -1,0 +1,7 @@
+{
+  "repo": "Sublime{{ ProJect }}",
+  "name": "{{ Project }}",
+  "description": "{{ description }}",
+  "author": "Colin Thomas-Arnold (colinta)",
+  "homepage": "https://github.com/colinta/Sublime{{ ProJect }}"
+}

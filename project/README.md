@@ -1,5 +1,8 @@
- {{ Project }} for Sublime Text 2
-={{ '=' * len(Project) }}====================
+----
+target_name: README.md
+----
+ {{ ProJect }} for Sublime Text 2
+={{ '=' * len(ProJect) }}====================
 {%- if desc %}
 
 {{ desc }}
@@ -8,7 +11,7 @@
  Installation
 --------------
 
-1. Using Package Control, install "{{ Project }}"
+1. Using Package Control, install "{{ ProJect }}"
 
 Or:
 
@@ -19,7 +22,9 @@ Or:
     - Linux: ~/.Sublime Text 2/Packages/
 
 2. clone this repo
+3. Install keymaps for the commands (see Example.sublime-keymap for my preferred keys)
 
  Commands
 ----------
 
+`{{ project }}`:
