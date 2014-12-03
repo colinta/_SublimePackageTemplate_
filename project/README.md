@@ -1,7 +1,7 @@
 ----
 target_name: README.md
 ----
- {{ ProJect }} for Sublime Text 2
+ {{ ProJect }} for Sublime Text 3
 ={{ '=' * len(ProJect) }}====================
 {%- if desc %}
 
@@ -15,11 +15,11 @@ target_name: README.md
 
 Or:
 
-1. Open the Sublime Text 2 Packages folder
+1. Open the Sublime Text 3 Packages folder
 
-    - OS X: ~/Library/Application Support/Sublime Text 2/Packages/
-    - Windows: %APPDATA%/Sublime Text 2/Packages/
-    - Linux: ~/.Sublime Text 2/Packages/
+    - OS X: ~/Library/Application Support/Sublime Text 3/Packages/
+    - Windows: %APPDATA%/Sublime Text 3/Packages/
+    - Linux: ~/.Sublime Text 3/Packages/
 
 2. clone this repo
 3. Install keymaps for the commands (see Example.sublime-keymap for my preferred keys)
