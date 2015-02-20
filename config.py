@@ -7,7 +7,7 @@ from strange_case.extensions.configurator_title_from_name import titlecase
 def project_title(CONFIG):
     if CONFIG.get('project', None) is None:
         import sys
-        sys.stderr.write("Usage:\n    scase project:name [desc:description]\n\n'project' is required\n")
+        sys.stderr.write("Usage:\n    scase project:hyphenated-name [desc:description]\n\n'project' is required\n")
         sys.exit(1)
 
     CONFIG['project'] = CONFIG['project'].replace('-', '_')

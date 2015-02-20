@@ -1,5 +1,5 @@
 ````````
-target_name = project + '.py'
+target_name = ProJect + '.py'
 ````````
 import sublime
 import sublime_plugin

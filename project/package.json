@@ -1,6 +1,6 @@
 {
   "repo": "Sublime{{ ProJect }}",
   "name": "{{ Project }}",
-  "description": "{{ description }}",
+  "description": "{{ desc }}",
   "homepage": "https://github.com/colinta/Sublime{{ ProJect }}"
 }
